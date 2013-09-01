@@ -1,0 +1,50 @@
+body {
+	background: url('img/background2.jpg');
+	margin-left: 20px;
+}
+
+h1 {
+	color: darkred;
+	text-align: center;
+	margin: 50px;
+}
+
+ul {
+	float: right;
+	list-style: none;
+	text-align: center;
+	margin-right: 150px;
+	margin-bottom: 50px;
+	border-bottom: solid darkred 2px;
+}
+
+ul li {
+	float: left;
+	margin: 10px;
+	text-align: center;
+}
+
+h2 {
+	color: darkblue;
+}
+
+em {
+	color: lightblue;
+	background-color: black;
+	text-transform: uppercase;
+	padding: 5px 10px;
+	border-radius: 50px
+}
+
+#rock_climbing:hover {
+	color: black;
+}
+
+#skydiving:hover {
+	color: black;
+}
+
+#travel:hover {
+	color: black;
+}
+
