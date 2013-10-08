@@ -3,16 +3,18 @@ html {
 }
 
 body {
-  background-image: url('../img/dark_wood_@2X.png');
-  background-repeat: no-repeat;
-  background-size: 100%;
+  background-image: url('../img/black-Linen.png');
+  background-repeat: repeat;
+  background-size:;
   background-position: center;
   background-attachment: fixed;
+  font-family: Baskerville, "Baskerville Old Face", "Goudy Old Style", Garamond, "Times New Roman", serif;
   color: #999;
 }
 
 h1, h2, h3, h4 {
-font-family: Baskerville, "Baskerville Old Face", "Goudy Old Style", Garamond, "Times New Roman", serif;}
+font-family: Baskerville, "Baskerville Old Face", "Goudy Old Style", Garamond, "Times New Roman", serif;
+}
 
 h1 {
   font-size: 3.5em;
@@ -21,7 +23,7 @@ h1 {
   letter-spacing: .1em;
   border-bottom: solid 2px #ccc;
   padding-bottom: 10px;
-  margin: 0 0 40px 0;
+  margin: 0 0 17px 0;
   color: #ccc;
 }
 
@@ -30,9 +32,7 @@ h2 {
 }
 
 .navbar-inverse {
-  background-image: url('../img/dark_wall_@2X.png');
-  background-repeat: no-repeat;
-  background-position: center;
+  background-color: #222;
 }
 
 .nav {
@@ -50,7 +50,8 @@ h2 {
 }
 
 .intro {
-  margin-bottom: 85px;
+  margin-bottom: 22px;
+  font-size: 1.15em;
 }
 
 .icon {
@@ -64,15 +65,33 @@ h2 {
   padding-left: 0px;
 }
 
+.logo:hover {
+  color: #fff;
+}
+
 .well {
   margin-top: 50px;
-  background-image: url('../img/dark_wall_@2X.png');
+  background-color: #222;
   color: #ccc;
+  font-family: Baskerville, "Baskerville Old Face", "Goudy Old Style", Garamond, "Times New Roman", serif;
+  font-variant: small-caps;
   font-size: 1.5em;
   letter-spacing: .1em;
   border: solid .15em #999;
 
 }
+
+.btn-default {
+  font-size: 1.2em;
+  color: #666;
+}
+
+.btn-default:hover {
+  background-color: #999;
+  color: #fff;
+  border: solid 2px #ccc;
+  box-shadow: .25em .25em .2em #fff;
+  }
 
 .abridged {
   margin-bottom: 75px;
@@ -86,6 +105,40 @@ h2 {
 .projects h2 {
   margin-bottom: 40px;
   padding-left: 15px;
+}
+
+.col-lg-4 p {
+  font-size: 1.15em;
+}
+
+.col-md-8 p {
+  font-size: 1.25em;
+}
+
+p {
+  font-weight: 300;
+  letter-spacing: .05em;
+  line-height: 1.45em;
+}
+
+@media screen and (max-width: 992px) {
+  .resources,
+  .contacts {
+    max-width: 50%;
+    margin-right: 0px;
+    float: left;
+  }
+
+  .logo {
+    max-width: 30%;
+    display: inline-block;
+  }
+}
+
+@media screen and (max-width: 768px) {
+.logo {
+  max-width: 40%;
+}
 }
 
 
