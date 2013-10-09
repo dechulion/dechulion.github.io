@@ -44,9 +44,27 @@ h2 {
   color: #999;
 }
 
-#me {
+.bottom {
+  position: absolute;
+  width: 95%;
+  height: 100%;
+  border: solid .15em #999;
+}
+
+.top {
   width: 100%;
   border: solid .15em #999;
+}
+
+
+.me img {
+  -webkit-transition: opacity 2s ease-in-out;
+  -moz-transition: opacity 2s ease-in-out;
+  -o-transition: opacity 2s ease-in-out;
+}
+
+.bottom:hover {
+  opacity: 0;
 }
 
 .intro {
@@ -90,15 +108,25 @@ h2 {
   background-color: #999;
   color: #fff;
   border: solid 2px #ccc;
-  box-shadow: .25em .25em .2em #fff;
+  box-shadow: -.25em -.25em .2em #fff;
   }
 
 .abridged {
   margin-bottom: 75px;
 }
 
+
+
+.projects:hover {
+  background-color: rgba(75, 75, 75, .3);
+  border-radius: 10px;
+  padding-bottom: 20px;
+}
+
 .projects {
+  background-color: rgba(0, 0, 0, 0);
   margin-top: 40px;
+  padding-bottom: 20px;
   margin-bottom: 40px;
 }
 
@@ -138,6 +166,38 @@ p {
 @media screen and (max-width: 768px) {
 .logo {
   max-width: 40%;
+}
+}
+
+@media screen and (max-width: 1200px) {
+  .bottom {
+  position: absolute;
+  width: 97%;
+  border: solid .15em #999;
+}
+}
+
+@media screen and (max-width: 1000px) {
+  .bottom {
+  position: absolute;
+  width: 96%;
+  border: solid .15em #999;
+}
+}
+
+@media screen and (max-width: 768px) {
+  .bottom {
+  position: absolute;
+  width: 96%;
+  border: solid .15em #999;
+}
+}
+
+@media screen and (max-width: 400px) {
+  .bottom {
+  position: absolute;
+  width: 93%;
+  border: solid .15em #999;
 }
 }
 
