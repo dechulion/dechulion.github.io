@@ -29,6 +29,7 @@ h1 {
 
 h2 {
   margin-bottom: 20px;
+  color: #999;
 }
 
 .navbar-inverse {
@@ -73,14 +74,18 @@ h2 {
 }
 
 .icon {
-  width: 90%;
+  width: 100%;
   border: solid 2px #999;
   box-shadow: 0 0 .15em #fff;
-  margin-right: 10px;
+
 }
 
 .logo {
-  padding-left: 0px;
+  width: 37%;
+  background-color: rgba(50, 50, 50, .5);
+  border-radius: 10px;
+  margin: auto;
+  padding-bottom: 10px;
 }
 
 .logo:hover {
@@ -111,13 +116,16 @@ h2 {
   box-shadow: -.25em -.25em .2em #fff;
   }
 
-.abridged {
+.abridged_projects {
   margin-bottom: 75px;
 }
 
+.projects h2:hover {
+  color: #fff;
+  text-decoration: underline;
+}
 
-
-.projects:hover {
+/*.projects:hover {
   background-color: rgba(75, 75, 75, .3);
   border-radius: 10px;
   padding-bottom: 20px;
@@ -128,11 +136,16 @@ h2 {
   margin-top: 40px;
   padding-bottom: 20px;
   margin-bottom: 40px;
-}
+}*/
 
 .projects h2 {
   margin-bottom: 40px;
   padding-left: 15px;
+}
+
+.projects img {
+ width: 200px;
+ hieght: 300px;
 }
 
 .col-lg-4 p {
@@ -149,33 +162,40 @@ p {
   line-height: 1.45em;
 }
 
-@media screen and (max-width: 992px) {
-  .resources,
-  .contacts {
-    max-width: 50%;
-    margin-right: 0px;
-    float: left;
-  }
-
-  .logo {
-    max-width: 30%;
-    display: inline-block;
-  }
-}
-
-@media screen and (max-width: 768px) {
-.logo {
-  max-width: 40%;
-}
-}
-
 @media screen and (max-width: 1200px) {
-  .bottom {
+.me {
+  width: 50%;
+  float: left;
+}
+
+.top {
+  width: 100%;
+  height: 382px;
+}
+
+.bottom {
   position: absolute;
-  width: 97%;
-  border: solid .15em #999;
+  width: 94%;
+  height: 382px;
+}
+
+.intro {
+  width: 50%;
+  margin-top: -10px;
+  margin-bottom: 22px;
+  font-size: 1em;
+  float: left;
+}
+
+.abridged-project-info {
+  width: 30%;
+  margin-left: 16px;
+  margin-right: 16px;
+  float: left;
+
 }
 }
+
 
 @media screen and (max-width: 1000px) {
   .bottom {
@@ -183,25 +203,140 @@ p {
   width: 96%;
   border: solid .15em #999;
 }
+
+
+}
+
+@media screen and (max-width: 992px) {
+.me {
+  width: 75%;
+  margin-bottom: 50px;
+  margin-left: 78.5px;
+  margin-right: 78.5px;
+}
+
+.intro {
+  width: 100%;
+}
+
+.bottom {
+  width: 95%;
+}
+
+.logo {
+  margin-top: 20px;
+  margin-right: 5%;
+  margin-left: 5%;
+  width: 15%;
+  float: left;
+  }
+
+.project_img {
+  width: 30%;
+  float: left;
+}
+
+.projects div:last-child {
+  width: 70%;
+  float: left;
+}
+
+.abridged-project-info {
+  width: 100%;
+}
 }
 
 @media screen and (max-width: 768px) {
-  .bottom {
+.me {
+  width: 70%;
+  margin-right: 13.5%;
+  margin-left: 13.5%;
+  }
+
+.collapse {
+  display: inline;
+}
+
+.collapse a {
+  float: left;
+}
+
+
+.navbar-header {
+  display: none;
+}
+
+.bottom {
   position: absolute;
-  width: 96%;
+  width: 95%;
   border: solid .15em #999;
 }
+
+.logo {
+  width: 15%;
+}
+
 }
 
 @media screen and (max-width: 400px) {
-  .bottom {
+
+.me {
+  width: 90%;
+  margin-right: 20px;
+  margin-left: 20px;
+  }
+
+.bottom {
   position: absolute;
-  width: 93%;
+  width: 92%;
+  height: 250px;
   border: solid .15em #999;
 }
+
+.top {
+  height: 250px;
+  width: 100%;
 }
 
+.logo {
+  width: 20%;
+  margin-right: 9.25px;
+  margin-left: 9.25px;
+}
 
+.well {
+  margin-bottom: 50px;
+}
+
+.project_img {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.projects div:last-child {
+  width: 100%;
+  font-size: .9em;
+}
+
+.abridged-project-info {
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+}
+}
+/*Clear fix*/
+
+.clearfix:before, .clear-fix:after {
+  content: "";
+  display: table;
+}
+
+.clearfix:after {
+  clear: both;
+}
+
+.clearfix {
+  *zoom: 1;
+}
 
 
 
