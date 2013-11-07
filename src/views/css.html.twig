@@ -1,0 +1,24 @@
+{% extends layout %}
+
+{% block title %}
+  Portfolio - HTML & CSS
+{% endblock %}
+
+{% block header %}
+  <div class="header">
+    <h1 class="header_name">Travis Keron <span class="header_title"> / HTML & CSS</span></h1>
+  </div>
+{% endblock %}
+
+{% block content %}
+  <div class="row projects clearfix">
+    <h2><a href="http://htmlpreview.github.io/?https://github.com/dechulion/bootstrap-practice/blob/master/webpage-remake/index.html">Webpage Remake</a></h2>
+    <div class="col-md-4 project_img">
+      <img src="/img/css_project.png">
+    </div>
+    <div class="col-md-8">
+      <p>This was the final project for my lessons with HTML5 and CSS3. I recreated a website by starting with a bootstrap template and then incorporated my own code. I made extensive use of columns, as well as altering the position of elements using absolute and relative positioning and floats. I heavily modified what little bootstrap css that came included and recreated the rest on my own. The source material for the website came from ...</p>
+    </div>
+  </div>
+{% endblock %}
+

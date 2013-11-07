@@ -1,0 +1,24 @@
+{% extends layout %}
+
+{% block title %}
+  Portfolio - PHP/Silex/Twig
+{% endblock %}
+
+{% block header %}
+  <div class="header">
+    <h1 class="header_name">Travis Keron <span class="header_title"> / PHP, Silex & Twig</span></h1>
+  </div>
+{% endblock %}
+
+{% block content %}
+  <div class="row projects clearfix">
+    <h2><a href="#">Keron Therapeutic Massage</a></h2>
+    <div class="col-md-4 project_img">
+      <img src="/img/massage.png">
+    </div>
+    <div class="col-md-8">
+      <p>For server side programming, I started with PHP, using the Silex framework and Twig layout template. I used these tools to create a basic webpage for my wife's massage business. To save time I downloaded a template from Theme Forest and though I heavily modified the template, I saved time by not having to create it from nothing. This way I was able to focus on creating a webpage with a simple routing system to navigate between multiple pages and a basic contact page where costumers can send messages.</p>
+    </div>
+  </div>
+{% endblock %}
+
