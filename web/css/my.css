@@ -80,14 +80,14 @@ h2 {
 }
 
 .icon {
-  width: 100%;
+  width: 50%;
   border: solid 2px #999;
   box-shadow: 0 0 .15em #fff;
 
 }
 
 .logo {
-  width: 37%;
+  background-color: #292929;
   background-color: rgba(50, 50, 50, .5);
   border-radius: 10px;
   margin: auto;
@@ -96,9 +96,16 @@ h2 {
   text-shadow: -.06em -.06em .1em #000;
 }
 
-.logo:hover {
+.logo a {
+  color: #69c;
+  text-shadow: -.06em -.06em .1em #000;
+  text-decoration: none;
+}
+
+.logo a:hover {
   color: #428bca;
   text-shadow: -.15em -.15em .1em #000;
+  text-decoration: none;
 }
 
 .well {
