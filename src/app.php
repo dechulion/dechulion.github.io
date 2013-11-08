@@ -21,16 +21,16 @@ $app->get('/', function () use ($app) {
   return $app['twig']->render('index.html.twig');
 });
 
-$app->get('/defending', function () use ($app) {
-  return $app['twig']->render('defending.html.twig');
+$app->get('/projects', function () use ($app) {
+  return $app['twig']->render('projects.html.twig');
 });
 
-$app->get('/css', function () use ($app) {
-  return $app['twig']->render('css.html.twig');
-});
+// $app->get('/css', function () use ($app) {
+//   return $app['twig']->render('css.html.twig');
+// });
 
-$app->get('/php', function () use ($app) {
-  return $app['twig']->render('php.html.twig');
-});
+// $app->get('/php', function () use ($app) {
+//   return $app['twig']->render('php.html.twig');
+// });
 
 return $app;

@@ -1,0 +1,56 @@
+{% extends layout %}
+
+{% block title %}
+  Portfolio - Projects
+{% endblock %}
+
+{% block header %}
+  <h1 class="header-name">Projects</h1>
+{% endblock %}
+
+{% block content %}
+  <div class="project-wrapper">
+    <div class="projects clearfix">
+      <div class="header">
+        <h2 class="header_title">Technical Writing
+          <span class="project-link"> /<a href="http://academic.evergreen.edu/w/warway24/"><cite>Defending Wild Washington</cite></a></span>
+        </h2>
+      </div>
+      <div class="col-md-3 project-img">
+        <img src="/img/defending.jpg">
+      </div>
+      <div class="col-md-9">
+        <p><cite>Defending Wild Washington: A Citizen's Action Guide</cite> was an ambitious project I joined for my junior year at The Evergreen State College. Seventeen students and two professors had a school-year to conduct and analyze in depth research and collaborate to write an extensive overview of the conservation movement in Washington State. My efforts included co-authoring Chapter 2: A History of Washington's Landscape Transformations, and Chapter 4: Riding the Wave. In chapter 2, I detailed the environmental changes Euro-Americans made to Washington's landscape and in chapter 4, I gave an account of the (then) current socioeconomic conditions of the state and how they could effect the conservation movement.</p>
+      </div>
+    </div>
+
+    <div class="projects clearfix">
+      <div class="header">
+        <h2 class="header_title">HTML & CSS
+          <span class="project-link"> /<a href="http://htmlpreview.github.io/?https://github.com/dechulion/bootstrap-practice/blob/master/webpage-remake/index.html">Webpage Remake</a></span>
+        </h2>
+      </div>
+      <div class="col-md-3 project-img">
+        <img src="/img/css_project.png">
+      </div>
+      <div class="col-md-9">
+        <p>This was the final project for my lessons with HTML5 and CSS3. I recreated a website by starting with a bootstrap template and then incorporated my own code. I made extensive use of columns, as well as altering the position of elements using absolute and relative positioning and floats. I heavily modified what little bootstrap css that came included and recreated the rest on my own. The source material for the website came from ...</p>
+      </div>
+    </div>
+
+    <div class="projects clearfix">
+      <div class="header">
+        <h2 class="header_title">PHP, Silex & Twig
+          <span class="project-link"> /<a href="http://localhost:8080/">Keron Therapeutic Massage</a></span>
+        </h2>
+      </div>
+      <div class="col-md-3 project-img">
+        <img src="/img/massage.png">
+      </div>
+      <div class="col-md-9">
+        <p>For server side programming, I started with PHP, using the Silex framework and Twig layout template. I used these tools to create a basic webpage for my wife's massage business. To save time I downloaded a template from Theme Forest and though I heavily modified the template, I saved time by not having to create it from nothing. This way I was able to focus on creating a webpage with a simple routing system to navigate between multiple pages and a basic contact page where costumers can send messages.</p>
+      </div>
+    </div>
+  </div>
+{% endblock %}
+

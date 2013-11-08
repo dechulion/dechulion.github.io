@@ -132,26 +132,19 @@ h2 {
   text-shadow: -.15em -.15em .1em #000;
 }
 
-/*.btn-default {
-  font-size: 1.2em;
-  color: #000;
-  background-color: #6699cc;
-  padding: 5px;
-}
-
-.btn-default:hover {
-  background-color: #428bca;
-  color: #000;
-  border: solid 1px #666;
-  }*/
-
 .abridged_projects {
   margin-bottom: 75px;
+}
+
+.projects {
+  margin-top: 40px;
+  padding-bottom: 30px;
 }
 
 .projects a {
   color: #6699cc;
   text-shadow: -.06em -.06em .1em #000;
+  margin-left: 15px;
 }
 
 .projects a:hover {
@@ -165,21 +158,40 @@ h2 {
   padding-left: 15px;
 }
 
+.projects p {
+  margin-top: 30px;
+}
+
 .header_title {
-  font-size: .5em;
   color: #999;
+  padding-bottom: 10px;
+  border-bottom: solid 1px #999;
+}
+
+.header-name {
+  margin-bottom: 100px;
+  border-bottom: dashed 1px #666;
+  text-align: center;
 }
 
 .projects img {
- width: 200px;
- hieght: 300px;
+ width: 100%;
+}
+
+.project-img {
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+
+.project-link {
+  font-size: .75em;
 }
 
 .col-lg-4 p {
   font-size: 1.15em;
 }
 
-.col-md-8 p {
+.col-md-9 p {
   font-size: 1.25em;
 }
 
@@ -258,9 +270,9 @@ p {
   float: left;
   }
 
-.project_img {
+.project-img {
   width: 30%;
-  float: left;
+  float: right;
 }
 
 .projects div:last-child {
@@ -287,7 +299,6 @@ p {
 .collapse a {
   float: left;
 }
-
 
 .navbar-header {
   display: none;
@@ -335,7 +346,7 @@ p {
   margin-bottom: 50px;
 }
 
-.project_img {
+.project-img {
   width: 100%;
   margin-bottom: 20px;
 }
