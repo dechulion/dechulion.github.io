@@ -25,12 +25,4 @@ $app->get('/projects', function () use ($app) {
   return $app['twig']->render('projects.html.twig');
 });
 
-// $app->get('/css', function () use ($app) {
-//   return $app['twig']->render('css.html.twig');
-// });
-
-// $app->get('/php', function () use ($app) {
-//   return $app['twig']->render('php.html.twig');
-// });
-
 return $app;
